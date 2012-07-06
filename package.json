@@ -1,0 +1,24 @@
+{
+  "name": "jdustc",
+  "description": "Jade + Dust complier",
+  "author": {
+    "name": "Surat Teerapittayanon"
+  },
+  "version": "1.0.0",
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "engines": {
+    "node": ">=0.4.0"
+  },
+  "bin": {
+    "jdustc": "./bin/jdustc"
+  },
+  "dependencies": {
+    "jade": "*",
+    "dustjs-linkedin": "*",
+    "coffee-script": "*"
+  }
+}
